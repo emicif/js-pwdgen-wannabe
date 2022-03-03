@@ -9,8 +9,11 @@ console.log(secondName);
 const color = prompt ('Qual è il tuo colore preferito?');
 console.log(color);
 
+const number = '21';
+console.log(number);
 
-const pw = firstName+secondName+color;
+
+const pw = firstName+secondName+color+number;
 console.log(pw)
 
 
