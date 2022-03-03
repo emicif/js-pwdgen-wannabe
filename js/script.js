@@ -9,9 +9,17 @@ console.log(secondName);
 const color = prompt ('Qual è il tuo colore preferito?');
 console.log(color);
 
-console.log(
-`
-${firstName}${secondName}${color}
 
-`
-);
+const pw = firstName+secondName+color;
+console.log(pw)
+
+
+
+
+// accedo all'elemento con id generatorpw e gli associo un testo interno
+ document.getElementById('title').innerText =  '<strong>Hello World classe 57!</strong>';
+
+
+
+
+//document.write(firstName + secondName + color);
