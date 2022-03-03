@@ -17,9 +17,6 @@ console.log(pw)
 
 
 // accedo all'elemento con id generatorpw e gli associo un testo interno
- document.getElementById('title').innerText =  '<strong>Hello World classe 57!</strong>';
+ document.getElementById('pw-generator').innerText= 'La tua password "sicura" è ' + pw;
 
 
-
-
-//document.write(firstName + secondName + color);
