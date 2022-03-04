@@ -3,7 +3,7 @@ console.log ('JS OK');
 const firstName = prompt ('Qual è il tuo nome?');
 console.log(firstName);
 
-const secondName = prompt ('Qual è il tuo cognome?');
+const lastName = prompt ('Qual è il tuo cognome?');
 console.log(secondName);
 
 const color = prompt ('Qual è il tuo colore preferito?');
@@ -13,8 +13,15 @@ const number = '21';
 console.log(number);
 
 
-const pw = firstName+secondName+color+number;
+
+// concatenazione con il +
+const pw = firstName+lastName+color+number;
 console.log(pw)
+
+
+// concatenazione con il BackTick
+const pwbacktick = `${firstName}${lastName}${color}21`;
+console.log(pwbacktick)
 
 
 
